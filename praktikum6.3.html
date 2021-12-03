@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratikum 6.3</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+        body{padding:0;margin:0}
+        .flex-container{
+            display: flex;
+            height: 80vh;
+        
+        }
+        
+        .main-konten{
+            display: flex;
+        
+        }
+        
+        .header,.footer{
+            text-align: center;
+            height: 5vh;
+            background: #96D1C7;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 10px;
+            justify-content: center;
+        }
+        
+        .artikel,.asside-bg3{
+            height: 38vh;
+            margin: 20px;
+            height: 500px;
+            justify-content: center;
+            
+        }
+        
+        .konten{
+            width: 100%;
+        }
+        
+        .article{
+            text-align: center;
+            width: 720px;
+            background: #FC7978;
+            margin: 5px;
+            order: 2;
+            margin: 20px;
+        }
+        
+        .container_gambar{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            
+         }
+        
+        .gambar1{
+            width: 200px;
+            margin: 15px;
+            margin-top: 19em;
+            
+            
+            
+        }
+        
+        .asside-bg3{
+            text-align: center;
+            width: 180px;
+            background: #5EB7B7;
+            order: 1;
+        }
+        
+        .p20{
+            padding: 20px;
+        }
+        
+        body{
+            background-color: hotpink;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conten">
+    <div class="flex-container">
+        <div class='konten'>
+            <div class='header bg2'>Header</div>
+            <div class='main-konten'>
+                <div class='article'>Article
+                    <div class="container_gambar">
+                    <img src="img.jpeg" alt="ini adalah gambar" class="gambar1">
+                    <img src="img.jpeg" alt="ini adalah gambar" class="gambar1">
+                    <img src="img.jpeg" alt="ini adalah gambar" class="gambar1">
+                    </div>
+                </div>
+                    <div class='asside-bg3'>Aside</div>
+            </div>
+            <div class='footer'>Footer</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
